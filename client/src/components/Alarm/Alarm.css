@@ -1,0 +1,69 @@
+
+.box {
+    background-color: #457b9d;
+    color: #f1faee;
+    box-shadow: 8px 8px 5px grey;
+    z-index: 0;
+}
+
+.confirmed {
+    background-color: #2a9d8f;
+}
+
+.skipped {
+    opacity: 0.6;
+}
+
+.active {
+    border: none;
+}
+
+.buttons button {
+    margin: 0.3rem;
+    background-color: #1d3557;
+    color: #f1faee;
+    border: none;
+    border-radius: 7px;
+}
+
+.cards {
+    width: 80vw;
+}
+
+.card-text {
+    height: 12vh;
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+}
+
+.box {
+    width: 80vw;
+    border-radius: 15px;
+    margin: 0.5rem;
+}
+
+.content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.name:hover {
+    font-size: 1.8em;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .box h4 {
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .box .buttons {
+        font-size: 1rem;
+    }
+  }
