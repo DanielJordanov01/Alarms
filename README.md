@@ -15,9 +15,7 @@ decides to skip the alarm it will become slightly grayed and no further actions 
 on the selected alarm.
 4. I’ve given myself the freedom to create a custom logo for the project. It’s not necessary but
 it certainly makes the app look better and more professional.
-TODO in version 2.0
-1. Functionality of adding, removing and editing alarms can be added but for now it is out of
-the scope of this project.
+
 Running the project
 To start the project clone the repository navigate to /client then run “npm install” in the
 projects directory. After the installation of the packages is complete run “npm start” in the /client
