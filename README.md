@@ -1,5 +1,9 @@
 # Alarms
-Report
+
+![](alarms.gif)
+
+
+# Report
 1. Process json file – I’ve created a python script that converts the timestamps from the
 original json file to dates and turns it into a dictionary where the key is the date. This is done
 because a hashmap will be used for the react state and all the adding, deleting, and
